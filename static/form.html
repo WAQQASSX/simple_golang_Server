@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;    
+            position: absolute;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;           
+        }
+        Label{
+            text-align: center;
+            margin-left: 60px;
+            margin-top:10px ;
+        }
+        input{
+            border-radius: 10px;
+        }
+        #w{
+            margin: 10px;
+            margin-left: 50px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <form method="POST"  action="/form">
+            <Label>FullName</Label><br><input name="FullName" type="text" value="">
+            <br>
+            <Label>Email</Label><br><input name="Email" type="email" value=""><br>
+            <Label>Password</Label><br><input name="Password" type="password" value="">
+            <br><input id="w"type="submit" value="submit"/>
+        </form>
+    </div>
+</body>
+</html>
